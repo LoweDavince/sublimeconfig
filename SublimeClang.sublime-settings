@@ -1,0 +1,18 @@
+{
+    "show_output_panel": false,
+    "dont_prepend_clang_includes": true,
+    "inhibit_sublime_completions": false,
+
+    "options":
+    [
+        "-std=gnu++11",
+        "-isystem", "/usr/include",
+        "-isystem", "/usr/include/c++/*",
+        "-isystem", "/usr/include/c++/4.8",
+        "-isystem", "/usr/include/c++/4.8/*",
+        "-isystem", "/usr/include/boost",
+        "-isystem", "/usr/include/boost/**",
+        "-isystem", "/usr/lib/gcc/x86_64-linux-gnu/4.8/include",
+        "-isystem", "/usr/lib/gcc/x86_64-linux-gnu/4.8/include/*"
+    ]
+}
